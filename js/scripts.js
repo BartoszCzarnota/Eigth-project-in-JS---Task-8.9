@@ -6,10 +6,13 @@ function rysujChoinke(x) {
 			var star = '*';
 		
 		for (var z = 0 ; z < y*2-1 ; z++) {
-				var star = star + '*';
+				star += '*';
 		}
 		console.log(star)
 	}		
 }
 
 rysujChoinke(5);
+
+//nie mam pomysłu tylko jak dodać spację do każdego poziomu
+//żeby wyprostować choinkę:)
